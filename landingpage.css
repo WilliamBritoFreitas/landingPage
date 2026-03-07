@@ -33,4 +33,27 @@ header {
     border-radius: 6px;
     padding: 8px;
     gap: 4px;
+    color: #4B2995;  
+    
+}
+
+.painel_principal {
+    display: flex;
+    padding: 32px 160px;
+}
+
+.PP_Col_01{
+    display: flex;
+    flex-direction: column;
+}
+
+.c1_box2{
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+
+}
+
+.vantagens {
+    gap: 12px;
 }
