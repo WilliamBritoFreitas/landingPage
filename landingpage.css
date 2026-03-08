@@ -4,6 +4,9 @@
     outline: 0;
     border:0;
     box-sizing: 0;
+   font-family:"roboto", sans-serif; 
+   font-size: 16px;
+    
 }
 
 header {
@@ -40,20 +43,63 @@ header {
 .painel_principal {
     display: flex;
     padding: 32px 160px;
+    align-items: center;
+     border: 2px rgb(241, 13, 13) solid;
 }
 
-.PP_Col_01{
+
+
+.PP_col_01{
     display: flex;
     flex-direction: column;
+    width: 567px;
+    border: 2px rgb(25, 25, 27) solid;
+}
+.c1_box1 {
+    margin-bottom: 66px;
+    border: 2px rgb(241, 13, 13) solid;
 }
 
 .c1_box2{
     display: flex;
-    padding: 40px;
     gap: 40px;
+    flex-wrap: wrap;
+    border: 1px rgb(8, 137, 141) solid;
 
 }
 
 .vantagens {
-    gap: 12px;
+     border: 2px rgb(241, 13, 13) solid;
+     gap: 12px;
+     display: flex;
+     align-items: center;
+}
+
+.PP_col_02{
+    width: 476px;
+}
+
+.circulo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; /* Transforma em círculo */
+  padding: 8px;
+  gap: 8px;
+  object-fit:contain;
+
+}
+.ouro {
+    background-color: #C47F17;
+}
+
+.cinza {
+    background-color: #574F4D;
+}
+
+.amarelo {
+    background-color: #DBAC2C;
+}
+
+.roxo {
+    background-color: #8047F8;
 }
