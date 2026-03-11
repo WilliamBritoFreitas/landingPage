@@ -1,116 +1,108 @@
-*{
-    margin:0;
-    padding: 0;
-    outline: 0;
-    border:0;
-    box-sizing: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: 0;
 }
 
 body {
-   
-   
-    font-family:"roboto", sans-serif; 
-    font-size: 16px;
-    font-weight: 800;   
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
 }
 
 header {
-    display: flex;
-    /* deixar padding no header 0 de altura e na lateral 160 px */
-    padding: 32px 160px; 
-    
-    justify-content: space-between;
-    
-    border: 2px rgb(35, 122, 8) solid;
+  display: flex;
+  /* deixar padding no header 0 de altura e na lateral 160 px */
+  padding: 32px 160px;
+
+  justify-content: space-between;
+
+  border: 2px rgb(35, 122, 8) solid;
 }
 
-.div-header-right{
-    gap: 12px;
-    display: flex;
+.div-header-right {
+  gap: 12px;
+  display: flex;
 }
 
-
-.btn-car{
-    background-color: #f1e9c9;
-    padding: 8px;
-    border-radius: 6 px;
+.btn-car {
+  background-color: #f1e9c9;
+  padding: 8px;
+  border-radius: 6 px;
 }
 
 .div-local {
-    display: flex;
-    align-items: center;
-    background-color: #EBE5F9;
-    border-radius: 6px;
-    padding: 8px;
-    gap: 4px;
-    color: #4B2995;  
-    
+  display: flex;
+  align-items: center;
+  background-color: #ebe5f9;
+  border-radius: 6px;
+  padding: 8px;
+  gap: 4px;
+  color: #4b2995;
 }
 
 .painel_principal {
-    display: flex;
-    padding: 32px 160px;
-    align-items: center;
-    border: 2px rgb(241, 13, 13) solid;
+  display: flex;
+  padding: 32px 160px;
+  align-items: center;
+  /* border: 2px rgb(241, 13, 13) solid; */
 }
 
-
-
-.PP_col_01{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    border: 2px rgb(25, 25, 27) solid;
+.PP_col_01 {
+  display: flex;s
+  flex-direction: column;
+  width: 750px;
+  /* border: 2px rgb(25, 25, 27) solid; */
 }
 .c1_box1 {
-    margin-bottom: 66px;
-    border: 2px rgb(241, 13, 13) solid;
+  margin-bottom: 66px;
+  /* border: 2px rgb(241, 13, 13) solid; */
 }
 
-.c1_box2{
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    border: 1px rgb(8, 137, 141) solid;
-
+.c1_box2 {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  /* border: 1px rgb(8, 137, 141) solid; */
 }
 
 .vantagens {
-     border: 2px rgb(241, 13, 13) solid;
-     gap: 12px;
-     display: flex;
-     align-items: center;
-    
+  /* border: 2px rgb(241, 13, 13) solid; */
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 5px 10px;
+  border-radius: 1em;
 }
 
-.PP_col_02{
-    width: 476px;
+.PP_col_02 {
+  width: 476px;
 }
 
 .circulo {
-  width: 32px;
-  height: 32px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%; /* Transforma em círculo */
-  padding: 16px;
-  gap: 6px;
-  object-fit:contain;
-
+  padding: 8px;
+  gap: 8px;
+  object-fit: contain;
 }
 
-
 .ouro {
-    background-color: #C47F17;
+  background-color: #c47f17;
 }
 
 .cinza {
-    background-color: #574F4D;
+  background-color: #574f4d;
 }
 
 .amarelo {
-    background-color: #DBAC2C;
+  background-color: #dbac2c;
 }
 
 .roxo {
-    background-color: #8047F8;
+  background-color: #8047f8;
 }
