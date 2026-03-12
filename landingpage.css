@@ -51,14 +51,35 @@ header {
 }
 
 .PP_col_01 {
-  display: flex;s
+  display: flex;
   flex-direction: column;
-  width: 750px;
+  width: 600px;
   /* border: 2px rgb(25, 25, 27) solid; */
 }
 .c1_box1 {
   margin-bottom: 66px;
   /* border: 2px rgb(241, 13, 13) solid; */
+}
+.c1_box1_texto {
+  margin-top: 30px;
+  width: 500px;
+}
+
+.c1_box1 h1 {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 3em;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1;
+}
+
+.c1_box1 p {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 20px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .c1_box2 {
