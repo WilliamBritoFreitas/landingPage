@@ -127,3 +127,23 @@ header {
 .roxo {
   background-color: #8047f8;
 }
+
+.cab_menu {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1;
+  padding: 32px 160px;
+}
+
+.menu_itens {
+  padding: 32px 160px;
+}
+
+.cartao_menu {
+  width: 256px;
+  height: 310px;
+  background-color: #f3f2f2;
+}
